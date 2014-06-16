@@ -106,7 +106,7 @@ public class MiClase
 	//devuelve si contiene texto o simplemente es un numero.
 	static boolean existe(String arreglo[],String cadena)
 	{
-		for(int i=0; i<arreglo.length; x++)
+		for(int i=0; i<arreglo.length; i++)
 		{
 			if(arreglo[i].equals(cadena))
 				return true;
