@@ -1,5 +1,6 @@
 public class MiClase
 {
+	//Ejercicios realizados en Grupo con Fabricio Laureano.
 	//devuelve la suma de a y b
 	//en esta funcion solo sume las variables declaradas
 	static int sumarNumeros(int a, int b)
@@ -75,6 +76,9 @@ public class MiClase
 	}
 	
 	//devuelve el numero mayor de un arreglo
+	//Este lo realize con la ayuda de:http://escodigo.com/tutoriales/java/ejercicios-java/numero-mayor-menor-un-arreglo.html 
+	//obtiene el arreglo luego calcula el tamaño de ese arreglo y calcula cual de los numeros es el mayor
+	//asi es una manera mas facil de compárar los numeros por medio de un arreglo.
 	static int getMayorArreglo(int arreglo[])
 	{
 		int imayor =0;
@@ -86,6 +90,8 @@ public class MiClase
 	}
 	
 	//devuelve el numero menor de un arreglo
+	//de la misma forma con la ayuda de este link realice esto: ayuda de:http://escodigo.com/tutoriales/java/ejercicios-java/numero-mayor-menor-un-arreglo.html
+	//obtiene el arreglo luego calcula el tamaño de ese arreglo y calcula cual de los numeros es el menor
 	static int getMenorArreglo(int arreglo[])
 	{
 		int imenor =0;
@@ -96,11 +102,13 @@ public class MiClase
 	}
 	
 	//devuelve true si encuentra cadena dentro arreglo
+	//en este ejemplo lo que hace es que la comparacion de una variable en especifico 
+	//devuelve si contiene texto o simplemente es un numero.
 	static boolean existe(String arreglo[],String cadena)
 	{
-		for(int x =0; x<arreglo.length; x++)
+		for(int i=0; i<arreglo.length; x++)
 		{
-			if(arreglo[x].equals(cadena))
+			if(arreglo[i].equals(cadena))
 				return true;
 		}
 		return false;
